@@ -1,0 +1,14 @@
+@media screen and (max-width: 767px) {
+    .contents {
+        float: none; /* 要素の浮動化の解除 */
+        }
+    }
+
+@media screen and (max-width: 479px) {
+    .contents {
+        max-width: 1000px; /* 要素がこれ以上は大きくならない幅の指定 */
+        width: 100%; /* 横幅を親要素の幅に合わせる */
+        margin-left: auto; /* ボックス外側の左の余白を親要素の幅に合わせる */
+        margin-right: auto; /* ボックス外側の右の余白を親要素の幅に合わせる */
+}
+    }
