@@ -1,0 +1,36 @@
+@media screen and (max-width: 479px) {
+    .header{
+        width: 200px;
+        height:200px;
+    }
+ .inner{
+    display: flex;
+    flex-flow: column;
+ }
+.content{
+    top: 27.5px;
+    left: 80px;
+    width:60px;
+    height: 160px;
+}
+.b{
+    max-width: 200px; /* 要素がこれ以上は大きくならない幅の指定 */
+    width: 100%;
+    float: none;
+}
+.e{
+    width: 200px; 
+    float: none;
+}
+
+.footer{
+    max-width: 200px; /* 要素がこれ以上は大きくならない幅の指定 */
+    width: 100%;
+}
+.inner2{
+    margin-left: 15px;
+}
+.box{
+    margin: 0 0 10px  10px;
+}
+}
