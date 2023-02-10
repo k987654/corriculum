@@ -17,6 +17,7 @@
     max-width: 200px; /* 要素がこれ以上は大きくならない幅の指定 */
     width: 100%;
     float: none;
+    height:100px;
 }
 .e{
     width: 200px; 
